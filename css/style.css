@@ -1,0 +1,78 @@
+body{
+	font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
+	margin: 0;
+	background-color: #3B3F45
+}
+header{
+	text-align: center;
+	background-color: #4A4F56;
+	color: #EB7E7C;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+.list {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    list-style-type: none;
+}
+li{
+    font-size: 20px;
+}
+.list label{
+	display: block;
+	padding: 10px;
+}
+li:hover {
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+.list label:active{
+	background-color: #EB7E7F;
+}
+ li {
+	background-color: #88839E;
+}
+.list li:nth-child(even){
+	background-color: #625E77;
+}
+.list input[type="checkbox"]:checked ~ span {
+	color: #A49EB2;
+	text-decoration: line-through;
+}
+footer{
+	text-align: center;
+	font-size: 30px;
+	background-color: #4A4F56;
+	color: #EB7E7C;
+    margin-left: 22%;
+    margin-right: 20%;
+	padding: 10px;
+}
+.top, .right, .bottom, .left {
+	background-color: #FFF;
+	position: fixed;
+}
+.top, .bottom {
+	height: 20px;
+	left: 0;
+	right: 0;
+}
+.top {
+	top: 0;
+}
+.bottom {
+	bottom: 0;
+}
+.right, .left {
+	width: 20px;
+	top: 0;
+	bottom: 0;
+}
+.right {
+	right: 0;
+}
+.left {
+	left: 0;
+}
